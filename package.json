@@ -1,0 +1,15 @@
+
+{
+  "keywords": [
+    "cypress",
+    "typescript",
+    "node"
+  ],
+  "devDependencies": {
+    "@types/cypress": "^0.1.6",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.5.5",
+    "cypress": "13.14.2",
+    "typescript": "^5.6.2"
+  }
+}
