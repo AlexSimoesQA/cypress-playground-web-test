@@ -1,4 +1,6 @@
 import './page-objects/commands'
 
-
-//require('cypress-plugin-tab');
+Cypress.on('fail', (error) => {
+    debugger
+    throw error
+})

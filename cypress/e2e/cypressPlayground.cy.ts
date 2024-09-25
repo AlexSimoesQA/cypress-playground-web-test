@@ -74,4 +74,10 @@ describe('Cypress Playground', () => {
         cy.interceptStatus500(URL.api)
     })
 
+    it('test request 200', () => {
+        cy.request('GET', URL.api)
+        .its('status')
+        .should('be.equal', 200)
+    })
+
 })
